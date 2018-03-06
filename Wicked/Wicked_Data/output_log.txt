@@ -15,38 +15,38 @@ Default GameObject Tag: GameController already registered
 (Filename:  Line: 93)
 
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\포트폴리오\게임\Wicked_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\포트폴리오\게임\Wicked_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\포트폴리오\게임\Wicked_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\포트폴리오\게임\Wicked_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\포트폴리오\게임\Wicked_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading D:\포트폴리오\게임\Wicked_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: D:\포트폴리오\게임\Wicked_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\포트폴리오\게임\Wicked_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\포트폴리오\게임\Wicked_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\포트폴리오\게임\Wicked_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.019 seconds
-Platform assembly: D:\포트폴리오\게임\Wicked_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\포트폴리오\게임\Wicked_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\포트폴리오\Wicked\Wicked_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\포트폴리오\Wicked\Wicked_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\포트폴리오\Wicked\Wicked_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\포트폴리오\Wicked\Wicked_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\포트폴리오\Wicked\Wicked_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\포트폴리오\Wicked\Wicked_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\포트폴리오\Wicked\Wicked_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\포트폴리오\Wicked\Wicked_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\포트폴리오\Wicked\Wicked_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\포트폴리오\Wicked\Wicked_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.123 seconds
+Platform assembly: D:\포트폴리오\Wicked\Wicked_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\포트폴리오\Wicked\Wicked_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.032750 ms
+UnloadTime: 1.658892 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 394c -> priority: 1 
-  Thread -> id: 11bc -> priority: 1 
-  Thread -> id: 3828 -> priority: 1 
-  Thread -> id: 3070 -> priority: 1 
+  Thread -> id: 2350 -> priority: 1 
+  Thread -> id: 19f8 -> priority: 1 
+  Thread -> id: 5b38 -> priority: 1 
+  Thread -> id: 958 -> priority: 1 
 The referenced script on this Behaviour (Game Object 'Faye') is missing!
  
 (Filename:  Line: 1743)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.967630 ms
+UnloadTime: 8.044662 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 6496.
-Total: 5.643662 ms (FindLiveObjects: 0.259281 ms CreateObjectMapping: 0.104296 ms MarkObjects: 1.328499 ms  DeleteObjects: 3.951220 ms)
+Total: 8.852410 ms (FindLiveObjects: 0.494859 ms CreateObjectMapping: 0.206768 ms MarkObjects: 2.643871 ms  DeleteObjects: 5.505816 ms)
 
 Load
  

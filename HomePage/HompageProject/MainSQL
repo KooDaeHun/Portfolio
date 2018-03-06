@@ -1,0 +1,85 @@
+select * from professor;
+select * from MANAGER;
+select * from STUDENT
+
+CREATE TABLE professor
+(
+	no                    NUMBER(5)  NOT NULL ,
+	age                   VARCHAR2(5)  NULL ,
+	irum                  VARCHAR2(50)  NULL ,
+	subject               VARCHAR2(50)  NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPKprofessor ON professor
+(no  ASC);
+
+
+
+ALTER TABLE professor
+	ADD CONSTRAINT  XPKprofessor PRIMARY KEY (no);
+	
+	
+	
+CREATE TABLE manager
+(
+	no                    NUMBER(5)  NOT NULL ,
+	age                   VARCHAR2(5)  NULL ,
+	irum                  VARCHAR2(50)  NULL ,
+	part                  VARCHAR2(50)  NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPKmanager ON manager
+(no  ASC);
+
+
+
+ALTER TABLE manager
+	ADD CONSTRAINT  XPKmanager PRIMARY KEY (no);	
+
+CREATE TABLE student
+(
+	no                    NUMBER(5)  NOT NULL ,
+	age                   VARCHAR2(5)  NULL ,
+	irum                  VARCHAR2(50)  NULL ,
+	hakbun                VARCHAR2(10)  NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPKstudent ON student
+(no  ASC);
+
+
+
+ALTER TABLE student
+	ADD CONSTRAINT  XPKstudent PRIMARY KEY (no);
+
+
+CREATE TABLE board
+(
+	no                    NUMBER(10) primary key,
+	title                 VARCHAR2(80)  NULL ,
+	icon                  VARCHAR2(30)  NULL ,
+	author                VARCHAR2(50)  NULL ,
+	nal                   VARCHAR2(60)  NULL ,
+	readcount             NUMBER(10)  NULL ,
+	content               VARCHAR2(80)  NULL 
+);
+
+drop table board;
+	
+	
+	
+	
+delete from student where irum = 'ko';	
+select s.no as sno,s.age as sage,s.irum as sirum,s.hakbun as shakbun,p.age as page,p.irum as pirum,p.subject as psubject,m.age as mage,m.irum as mirum,m.part as mpart from (student s left join professor p on s.no=p.no) left join manager m on s.no=m.no order by s.no asc;
+
+select s.no as sno,s.age as sage,s.irum as sirum,s.hakbun as shakbun,p.age as page,p.irum as pirum,p.subject as psubject,m.age as mage,m.irum as mirum,m.part as mpart from (student s left join professor p on s.no=p.no) left join manager m on s.no=m.no order by s.no asc
+
+drop table professor;
+drop table manager;
+drop table student;

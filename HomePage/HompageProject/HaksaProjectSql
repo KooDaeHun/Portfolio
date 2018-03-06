@@ -1,0 +1,64 @@
+CREATE TABLE manager
+(
+	no                    NUMBER(5)  NOT NULL ,
+	age                   VARCHAR2(5)  NULL ,
+	irum                  VARCHAR2(50)  NULL ,
+	part                  VARCHAR2(50)  NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPKmanager ON manager
+(no  ASC);
+
+
+
+ALTER TABLE manager
+	ADD CONSTRAINT  XPKmanager PRIMARY KEY (no);
+
+
+
+CREATE TABLE professor
+(
+	no                    NUMBER(5)  NOT NULL ,
+	age                   VARCHAR2(5)  NULL ,
+	irum                  VARCHAR2(50)  NULL ,
+	subject               VARCHAR2(50)  NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPKprofessor ON professor
+(no  ASC);
+
+
+
+ALTER TABLE professor
+	ADD CONSTRAINT  XPKprofessor PRIMARY KEY (no);
+
+
+
+CREATE TABLE student
+(
+	no                    NUMBER(5)  NOT NULL ,
+	age                   VARCHAR2(5)  NULL ,
+	irum                  VARCHAR2(50)  NULL ,
+	hakbun                VARCHAR2(10)  NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPKstudent ON student
+(no  ASC);
+
+
+
+ALTER TABLE student
+	ADD CONSTRAINT  XPKstudent PRIMARY KEY (no);
+	
+
+
+
+select * from STUDENT;
+select * from professor;
+select * from manager;
